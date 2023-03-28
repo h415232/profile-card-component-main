@@ -3,30 +3,55 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">  
   <title>Frontend Mentor | Profile card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-  Victor Crest
-  26
-  London
-
-  80K
-  Followers
-
-  803K
-  Likes
-
-  1.4K
-  Photos
+  <div class="main" role="main">
+    <div class="card">
+      <div class="card-banner">
+        <img class="card-banner-img" src="images/bg-pattern-card.svg" alt="profile-banner">
+      </div>
+      <div class="card-profile-pic">
+        <img class="card-profile-img" src="images/image-victor.jpg" alt="profile-pic">
+      </div>
+      <div class="card-profile-info">
+        <p>
+          <span class="text-bd">Victor Crest</span> 26
+          <br>
+          <span class="text-sub">London</span>
+        </p>
+      </div>
+      <hr class="hr-line">
+      <div class="card-profile-stat">
+        <div class="card-profile-stat-item">
+          <p>
+            <span class="text-bd">80K</span>
+            <br>
+            <span class="text-stat-sub">Followers</span>
+          </p>
+        </div>
+        <div class="card-profile-stat-item">
+          <p>
+            <span class="text-bd">803K</span>
+            <br>
+            <span class="text-stat-sub">Likes</span>
+          </p>
+        </div>
+        <div class="card-profile-stat-item">
+          <p>
+            <span class="text-bd">1.4K</span>
+            <br>
+            <span class="text-stat-sub">Photos</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
     Coded by <a href="#">Your Name Here</a>.

@@ -1,3 +1,113 @@
 /* TAG SELECTORS */
 
+body {
+    display : flex;
+    align-items : center;
+    justify-content : center;
+    height : 100vh;
+    flex-direction: column;
+    overflow-x : hidden;
+    background-color: #18A1AD;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: 0.05rem;
+    color: #909196;
+}
+
+p{
+    margin: 0;
+}
+
+
+.card {
+    background-color: white;
+    width: 21.875rem;
+    height: 21.875rem;
+    border-radius: 0.5rem;
+}
+
+/* Card Banner */
+.card-banner {
+    width: 21.875rem;
+}
+
+.card-banner-img {
+    display: block;
+    border-radius: 0.5rem 0.5rem 0 0;
+}
+
+/* Profile Pic */
+
+.card-profile-img {
+    border-radius: 100%;
+    display: inline-block;
+    position: relative;
+    bottom: 55px;
+    left: 125px;
+    border: 5px solid white;
+}
+
+/* Profile Info */
+.card-profile-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    bottom: 45px;
+}
+
+/* Profile Info Text */
+.text-bd {
+    font-weight: 700;
+    color: #353440;
+}
+
+.text-sub {
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+/* Horizontal Line Style*/
+.hr-line {
+    position: relative;
+    bottom: 40px;
+    background-color: #e7e8ec;
+    height: 1px;
+    border: none;
+}
+
+/* Profile Statistics */
+.card-profile-stat {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    bottom: 30px;
+}
+
+/* Profile Statistics Text */
+
+.text-stat-sub {
+    font-size: 0.7rem;
+}
+
+.card-profile-stat-item {
+    text-align: center;
+}
+
+
 /* CLASS SELECTORS */
+
+.attribution { 
+    margin-top: 20px;
+    font-size: 11px; 
+    text-align: center; 
+    color: black;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
